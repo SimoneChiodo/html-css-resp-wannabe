@@ -146,6 +146,14 @@ img {
     .row {
         flex-direction: column;
     }
+    .why-us {
+        background-color: #3e3e3e;
+        padding: 48px 0;
+        margin-bottom: 0;
+    }
+    .steps {
+        margin-bottom: 0;
+    }
 
     .lessons .col,
     .steps .col,
