@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     color: #b8c1ec;
     background: #232946;
 }
@@ -127,3 +127,30 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/* TABLET */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* MOBILE */
+@media screen and (max-width: 480px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right {
+        width: 100%;
+        padding-bottom: 80px;
+    }
+
+    .lessons .col:last-child,
+    .steps .col:last-child,
+    .why-us .col-right {
+        padding-bottom: 0;
+    }
+}
